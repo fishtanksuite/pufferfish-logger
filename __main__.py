@@ -11,9 +11,9 @@ from pyicap import *
 port = 1344
 
 # AMQP parameters
-host = 'elasticsearch-host'
-username = 'username'
-password= 'password'
+host = 'rabbitmq'
+username = 'rabbitmq'
+password= 'rabbitmq'
 exchange = 'logstash'
 
 logger = logging.getLogger('python-logstash-logger')
